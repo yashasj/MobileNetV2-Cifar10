@@ -14,7 +14,7 @@ git clone https://github.com/tensorflow/models.git and switch to the TF-Slim mod
 ->To convert our image data to an appropriate binary file format (TFRecord) we use a script provided by Kwotsin in a Github repository(https://github.com/kwotsin/create_tfrecords).
 
 
-->In step will create TFRecord files for training and validation. With the current setting of the  validation_size parameter, 80 % of the data will be used for training and 20 % for validation. 
+->In next step will create TFRecord files for training and validation. With the current setting of the  validation_size parameter, 80 % of the data will be used for training and 20 % for validation. 
 
 
 ->To start our training we need to run  train_image_classifier.py
